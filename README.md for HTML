@@ -1,0 +1,26 @@
+# HTML Hello World Project
+
+## How to Run
+
+1. Download and unzip the project folder.
+2. Open the folder in File Explorer.
+3. Double-click **index.html**.
+4. The page opens in your default browser — no server needed.
+
+> **Tip:** For a better experience, right-click `index.html` → *Open with* → choose Chrome, Edge, or Firefox.
+
+---
+
+## What You Will See
+
+A centred card on a light background with the text **"Hello, World! 👋"**.
+
+---
+
+## Files Included
+
+| File | Purpose |
+|------|---------|
+| `index.html` | Main webpage (HTML + CSS in one file) |
+| `README.md` | This file — run instructions |
+| `DOCUMENTATION.md` | Full learning documentation |
