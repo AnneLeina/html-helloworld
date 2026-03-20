@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- DOCTYPE declaration: tells the browser this is an HTML5 document -->
+
+<html lang="en">
+<!-- <html> is the root element of the page; lang="en" sets the language to English -->
+
+<head>
+  <!-- <head> contains metadata — not visible on the page -->
+  <meta charset="UTF-8" />
+  <!-- UTF-8 encoding supports all characters including special symbols -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Makes the page responsive on mobile screens -->
+
+  <title>Hello World – HTML Project</title>
+  <!-- Title shown in the browser tab -->
+
+  <style>
+    /* ── Basic page styling ── */
+    body {
+      font-family: Arial, sans-serif;   /* Clean, readable font */
+      background-color: #f0f4f8;        /* Light grey-blue background */
+      display: flex;
+      justify-content: center;          /* Centre content horizontally */
+      align-items: center;              /* Centre content vertically */
+      height: 100vh;                    /* Full viewport height */
+      margin: 0;
+    }
+
+    .card {
+      background: #ffffff;              /* White card */
+      border-radius: 12px;
+      padding: 48px 64px;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    }
+
+    h1 {
+      color: #2c3e50;                   /* Dark heading colour */
+      font-size: 2.5rem;
+      margin-bottom: 8px;
+    }
+
+    p {
+      color: #555;
+      font-size: 1rem;
+    }
+
+    .badge {
+      display: inline-block;
+      margin-top: 20px;
+      background: #3498db;              /* Blue badge */
+      color: #fff;
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      letter-spacing: 0.5px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- <body> holds everything visible in the browser window -->
+
+  <div class="card">
+    <!-- A <div> is a block-level container used to group elements -->
+
+    <h1>Hello, World! 👋</h1>
+    <!-- <h1> is the most important heading on the page -->
+
+    <p>Welcome to my first HTML project.</p>
+    <!-- <p> is a paragraph element -->
+
+    <span class="badge">HTML5 · Beginner Project</span>
+    <!-- <span> is an inline container; the class links it to CSS above -->
+  </div>
+
+</body>
+</html>
